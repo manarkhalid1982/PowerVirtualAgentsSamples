@@ -70,7 +70,12 @@ The report is based on what is shared through the Power Virtual Agents portal, b
 - The report includes all trace data emitted with the bot, allowing users to build reports on data import to them
 - The report can be shared with users and business decision makers without access to Power Virtual Agents
 
+
 ## Troubleshooting
 
 1. Ensure you have permission to access the TDS endpoint in Dataverse. Empty data tables may indicate a permissions problem.
 2. Please raise issues in the repo for other problems.
+
+## Tips:
+1.This report will show all sessions "engaged and unengaged", if you wish to only display engaged sessions then prior to publish your report to the designated workspace , use the "engaged count" measure to display engaged session values for the desired tiles
+
